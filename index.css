@@ -1,0 +1,380 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-image: black;
+  background-color: black;
+  background-size: cover; /* Changed to cover for better background scaling */
+}
+.navbar-brand {
+  color: aqua;
+}
+
+.dropdown-menu {
+  background-color: blue;
+}
+
+.navbar.navbar-inverse {
+  
+  background-color: rgb(41, 40, 40);
+  text-decoration: black;
+  text-transform: uppercase;
+}
+.container p{
+  color:aqua;
+  width: 600px;
+  height: 700px;
+  border: 100px;
+}
+.a h1{
+  
+  color: white;
+right: 200px;
+}
+.container{
+
+  border-radius: 650px;
+  /* text-shadow: 2px; */
+}
+.container button{
+  width: 200px;
+  height: 50px;
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+}
+.container h3{
+  color: white;
+  
+}
+.grid-container {
+  
+  /* Container styling */
+
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: repeat;
+  position: absolute; 
+  top: 75px; 
+  right: -10px; 
+  padding: 10px;
+  /* top: -20px; */
+
+  
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  gap: 5px;
+ 
+}
+
+.img{
+  width: 320px;
+}
+.item{
+  border: 5px solid black;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+.box{
+  color:aqua;
+  
+  padding: 50px 50px 50px 50px;
+  height: 350px;
+  border: 5px solid black;
+  text-align: center;
+  background-color: rgb(92, 88, 88);
+  border-radius: 15px;
+  box-shadow: 0 0 8px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  
+  
+}
+.box1{
+  color:aqua;
+  
+  padding: 20px 20px 20px 20px 20px 20px;
+  height: 350px;
+  border: 5px solid black;
+  text-align: center;
+  background-color: rgb(92, 88, 88);
+  border-radius: 15px;
+  box-shadow: 0 0 8px;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  
+  
+}
+.box1{
+  color:aqua;
+  /* color: black; */
+  padding: 400px 400px 400px 400px 400px 400px;
+  height: 320px;
+  border: 5px solid black;
+  text-align: center;
+  /* background-color: rgb(184, 24, 24); */
+  background-color:black;
+  border-radius: 15px;
+  box-shadow: 0 0 8px;
+  transition: all 0.5s ease;
+  cursor: pointer; 
+}
+
+
+.heading{
+  color: aqua;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  
+}
+.heading1{
+  color: aqua;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100;
+  margin-bottom: 20px;
+  
+}
+.box li{
+  color: azure;
+}
+.plan-containt{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+  align-items: center;
+  gap: 2.3rem;
+  margin-top: 4.3rem;
+}
+.plan-containt1{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,auto));
+  align-items: center;
+  gap: 1.3rem;
+  margin-top: 4.3rem;
+}
+
+.box h2{
+  font-size: 43px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.box:hover{
+  transform: translate(-5px)scale(1.03);
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0 auto; /* Center website */
+  max-width: 800px; /* Max width */
+  padding: 20px;
+}
+
+
+
+.fa {
+  font-size: 25px;
+}
+
+.checked {
+  color: orange;
+}
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+.box10 {
+ /* border: 3px solid aqua; */
+ border-radius: 20px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+.side{
+  color: aqua;
+}
+
+
+.heading3 {
+  font-size: 25px;
+  margin-right: 25px;
+  color: aqua;
+}
+
+.fa {
+  font-size: 25px;
+}
+
+
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side,.middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+  .ram{
+    color: aqua;
+  }
+  .con{
+    height: 200px;
+    width: 300px;
+  }
+  .button{
+    background-color: aqua;
+    color: aqua;
+  }
+
+
+
+
+  #contact {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .h-primary {
+    font-size: 2em;
+    color: #333;
+  }
+  .center {
+    text-align: center;
+  }
+  #contact-box {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  .form-group {
+    margin-bottom: 15px;
+  }
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .form-group textarea {
+    resize: vertical;
+  }
+  /* Button styles */
+  .btn83 {
+    text-align: center;
+  }
+  .btn83 button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+  }
+  .btn83 button:hover {
+    background-color: #0056b3;
+  }
+  /* Button text animation */
+  .btn83 button::before {
+    content: "Submit";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    opacity: 0;
+    animation: typing 2s steps(20, end) forwards;
+  }
+  @keyframes typing {
+    from { width: 0; opacity: 1; }
+    to { width: 100%; opacity: 1; }
+  }
